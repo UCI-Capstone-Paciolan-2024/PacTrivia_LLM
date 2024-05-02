@@ -3,8 +3,9 @@ question_count = 10
 question_list_prompt = """
 [
     {
-        "question": "In which popular TV sitcom can a shirt featuring the UCI Anteaters mascot be spotted?",
-        "answers": ["Friends", "The Office", "Parks & Rec", "Big Bang Theory"]
+        "question": "What is the mascot of UC Irvine?",
+        "answers": ["Anteater", "Aggie", "Triton", "Gaucho"]
+        "correct_answer": "Anteater"
     }
 ]
 """
