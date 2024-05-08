@@ -40,5 +40,17 @@ def generate_and_format_questions(team1, team2):
     response = json.loads(response)
     return response
 
+def generate_embeddings_from_list(text_list: list):
+    result = genai.embed_content(model="models/text-embedding-004", content=text_list, task_type="question_answering")
+    for embedding in result['embedding']:
+        print(str(embedding)[:50], '... TRIMMED]')
+    return result
+
+def generate_embeddings(text: str):
+    result = genai.embed_content(model="models/text-embedding-004", content=text, task_type="retrieval_document")
+    # Print just a part of the embedding to keep the output manageable
+    print(str(result['embedding'])[:50], '... TRIMMED]')
+    return result
+
 if __name__ == "__main__":
     response = generate_and_format_questions("UCI Anteaters", "UC Davis Aggies")
