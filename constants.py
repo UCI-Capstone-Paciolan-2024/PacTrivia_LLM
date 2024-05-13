@@ -1,25 +1,31 @@
 question_count = 10
 
 question_list_prompt = """
+
 [
     {
-        "question": "What is the mascot of UC Irvine?",
-        "answers": ["Anteater", "Aggie", "Triton", "Gaucho"]
-        "correct_answer": "Anteater"
+        "team": "UCI Anteaters",
+        "questions": [
+            {
+                "question": "What is the mascot of UC Irvine?",
+                "answer_options": ["Anteater", "Aggie", "Triton", "Gaucho"]
+                "correct_indices": [0]
+            }
+        ]
     }
 ]
 """
 
-def generate_system_prompt(team1, team2):
+def generate_system_prompt(team1):
 
  return f"""
 You are a sports trivia host, specializing in College Sports trivia.
 
 You are known for creating engaging trivia questions, and you will be creating a list of questions.
 
-You will create a list of {question_count} questions about these two teams:
+You will create a list of {question_count} questions about this team:
 
-{team1} and {team2}
+{team1}
 
 Output your question list in a valid JSON format.
 

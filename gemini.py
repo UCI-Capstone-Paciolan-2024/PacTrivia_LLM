@@ -25,9 +25,9 @@ def generate(prompt: str):
     return response.text
 
 # Generate the questions, and return as an array of questions
-def generate_and_format_questions(team1, team2):
+def generate_and_format_questions(team):
     # geenrate the system prompt
-    prompt = generate_system_prompt(team1, team2)
+    prompt = generate_system_prompt(team)
     # generate the questions
     print("Generating questions...")
     response = generate(prompt)
@@ -53,4 +53,4 @@ def generate_embeddings(text: str):
     return result
 
 if __name__ == "__main__":
-    response = generate_and_format_questions("UCI Anteaters", "UC Davis Aggies")
+    response = generate_and_format_questions("UCI Anteaters")
