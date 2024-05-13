@@ -18,7 +18,7 @@ question_list_prompt = """
 
 def generate_system_prompt(team1):
 
- return f"""
+    return f"""
 You are a sports trivia host, specializing in College Sports trivia.
 
 You are known for creating engaging trivia questions, and you will be creating a list of questions.
