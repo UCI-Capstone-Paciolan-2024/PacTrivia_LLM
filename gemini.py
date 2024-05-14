@@ -26,8 +26,14 @@ def generate(prompt: str):
 
 # Generate the questions, and return as an array of questions
 def generate_and_format_questions(team):
-    # geenrate the system prompt
-    prompt = generate_system_prompt(team)
+    # call milvus to query for the team's context
+
+    # FIXME: For now, we will use a hardcoded context
+
+    context = f"""{team} is a college sports team."""
+
+    # generate the system prompt
+    prompt = generate_system_prompt(team, context)
     # generate the questions
     print("Generating questions...")
     response = generate(prompt)

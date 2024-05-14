@@ -16,7 +16,7 @@ question_list_prompt = """
 ]
 """
 
-def generate_system_prompt(team1):
+def generate_system_prompt(team1, context):
 
     return f"""
 You are a sports trivia host, specializing in College Sports trivia.
@@ -26,6 +26,10 @@ You are known for creating engaging trivia questions, and you will be creating a
 You will create a list of {question_count} questions about this team:
 
 {team1}
+
+Here is an article detailing information about the team that you can use to create your questions:
+
+{context}
 
 Output your question list in a valid JSON format.
 
