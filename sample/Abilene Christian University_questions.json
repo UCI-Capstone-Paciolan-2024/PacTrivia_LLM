@@ -1,0 +1,87 @@
+[
+  {
+    "team": "Abilene Christian Wildcats",
+    "questions": [
+      {
+        "question": "What conference did the Abilene Christian Wildcats join in 2021?",
+        "answer_options": [
+          "Southland Conference",
+          "Western Athletic Conference",
+          "Lone Star Conference",
+          "Big 12 Conference"
+        ],
+        "correct_indices": [1]
+      },
+      {
+        "question": "In what year did Abilene Christian initially become eligible for NCAA postseason play?",
+        "answer_options": ["2013", "1973", "2017", "2021"],
+        "correct_indices": [2]
+      },
+      {
+        "question": "How many NCAA team national championships have the Wildcats won throughout their history?",
+        "answer_options": ["15", "33", "57", "62"],
+        "correct_indices": [2]
+      },
+      {
+        "question": "Which of the following conferences is NOT part of Abilene Christian's conference affiliation history?",
+        "answer_options": [
+          "Texas Conference",
+          "Gulf Coast Conference",
+          "Sun Belt Conference",
+          "Lone Star Conference"
+        ],
+        "correct_indices": [2]
+      },
+      {
+        "question": "What year did the Wildcats first join the Texas Intercollegiate Athletic Association?",
+        "answer_options": ["1923", "1933", "1954", "1963"],
+        "correct_indices": [0]
+      },
+      {
+        "question": "Which WWE Hall of Famer played football at ACU?",
+        "answer_options": [
+          "The Rock",
+          "Stone Cold Steve Austin",
+          "John Layfield",
+          "Hulk Hogan"
+        ],
+        "correct_indices": [2]
+      },
+      {
+        "question": "Who is the Director of Club Sports at ACU?",
+        "answer_options": [
+          "Wes Kittley",
+          "Todd Rogers",
+          "Wilbert Montgomery",
+          "Bobby Morrow"
+        ],
+        "correct_indices": [1]
+      },
+      {
+        "question": "Which of the following is NOT a club sport at ACU?",
+        "answer_options": [
+          "Men's Rugby",
+          "Co-Ed Golf",
+          "Men's Soccer",
+          "Women's Volleyball"
+        ],
+        "correct_indices": [3]
+      },
+      {
+        "question": "What radio station broadcasts ACU athletics?",
+        "answer_options": ["KRLD", "KTCK", "KHXS", "WBAP"],
+        "correct_indices": [2]
+      },
+      {
+        "question": "What is the nickname of Abilene Christian University's sports teams?",
+        "answer_options": [
+          "Wildcats",
+          "Longhorns",
+          "Roadrunners",
+          "Horned Frogs"
+        ],
+        "correct_indices": [0]
+      }
+    ]
+  }
+]
