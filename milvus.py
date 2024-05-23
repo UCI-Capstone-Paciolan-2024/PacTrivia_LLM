@@ -126,5 +126,5 @@ class MilvusApp:
 
         content = [entry["article_json"]["article_content"] for entry in res]
 
-        return content
+        return content    
     
